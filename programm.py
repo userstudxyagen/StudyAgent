@@ -5,7 +5,6 @@ from math_tools import solve_math
 from ai_tools import ask_ai
 
 st.set_page_config(page_title="📚 StudyBot", layout="wide")
-
 st.title("📚 StudyBot für dein Studium")
 
 option = st.sidebar.selectbox("Funktion auswählen", [
@@ -24,9 +23,8 @@ if option == "🧠 Frage beantworten":
 elif option == "📄 PDF analysieren":
     file = st.file_uploader("PDF hochladen", type=["pdf"])
     question = st.text_input("Frage zur PDF:")
-    if st.button("Analysieren"):
-        if file:
-            st.success(process_pdf(file, question))
+    if st.button("Analysieren") and file:
+        st.success(process_pdf(file, question))
 
 elif option == "🌐 Website analysieren":
     url = st.text_input("Website-URL:")
