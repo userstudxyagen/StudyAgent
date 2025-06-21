@@ -6,4 +6,4 @@ transformers
 huggingface_hub
 sympy
 python-dotenv
-fitz
+
