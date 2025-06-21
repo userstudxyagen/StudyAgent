@@ -1,9 +1,7 @@
 streamlit
-requests
-bs4
-PyMuPDF
-transformers
-huggingface_hub
+PyPDF2          
 sympy
+huggingface_hub
 python-dotenv
-
+bs4
+requests
