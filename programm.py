@@ -1,5 +1,5 @@
 import streamlit as st
-from pdf_tools import process_pdf
+from pdf_tools import PdfReader
 from web_tools import process_website
 from math_tools import solve_math
 from ai_tools import ask_ai
