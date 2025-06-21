@@ -1,8 +1,8 @@
 import streamlit as st
-from utils.pdf_tools import process_pdf
-from utils.web_tools import process_website
-from utils.math_tools import solve_math
-from utils.ai_tools import ask_ai
+from pdf_tools import process_pdf
+from web_tools import process_website
+from math_tools import solve_math
+from ai_tools import ask_ai
 
 st.set_page_config(page_title="📚 StudyBot", layout="wide")
 
