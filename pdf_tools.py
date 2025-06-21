@@ -1,4 +1,4 @@
-from PyPDF2 import PdfReader
+from PyPDF2 import process_pdf
 from ai_tools import ask_ai
 
 def process_pdf(uploaded_file, question):
