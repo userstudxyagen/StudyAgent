@@ -12,4 +12,4 @@ def process_pdf(uploaded_file, question):
 
     # Prompt für AI erstellen
     prompt = f"Beantworte die folgende Frage basierend auf dem PDF Text:\n{text[:3000]}\n\nFrage: {question}"
-    return ask_ai(prompt) // look at issue and code and tell the conflict and the way to solve correctly and with out any further isssues
+    return ask_ai(prompt)
